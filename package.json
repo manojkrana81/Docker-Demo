@@ -1,0 +1,14 @@
+{
+  "name": "basic-app",
+  "version": "1.0.0",
+  "description": "This is a basic routing app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Manoj Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
