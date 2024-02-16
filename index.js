@@ -7,6 +7,7 @@ const dataFolder = path.join(__dirname, 'data/files');
 
 fs.mkdir(dataFolder, {recursive: true});
 
+
 app.get('/ping', (req, res)=>{
     console.log('hey there');
     res.send('pong');
